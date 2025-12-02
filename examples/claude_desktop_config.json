@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "solana": {
+      "command": "node",
+      "args": ["/absolute/path/to/solana-mcp-server/dist/index.js"],
+      "env": {
+        "SOLANA_RPC_URL": "https://api.devnet.solana.com",
+        "SOLANA_COMMITMENT": "confirmed"
+      }
+    }
+  }
+}
